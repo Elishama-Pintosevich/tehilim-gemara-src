@@ -1,0 +1,125 @@
+.header{
+    background-image: url("../public/assets/idfImg.jpeg") ;
+    /* url('../public/assets/idfImg.jpeg') */
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opacity: 64%; */
+}
+.bg{
+    min-height: 100vh;
+    background-color: #FEA702;
+}
+.img{
+    width: 100px;
+}
+.divTitle{
+    height: inherit;
+    display: flex;
+    align-items: flex-end;
+    /* align-items: center; */
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.title{
+    padding-bottom: 32px;
+    width: 300px;
+    text-align: center;
+   
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subTitle{
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    font-size: 20px 20px 20px 0px;
+    font-weight: bold;
+    max-width: 360px;
+    text-align: center;
+}
+.miniTitle{
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color:#265BA8
+}
+.buttons{
+    display: grid;
+    padding-top: 40px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    column-gap: 20px;
+    row-gap: 20px; 
+    grid-template-columns: auto auto auto;
+}
+.buttonDiv{
+    /* padding-top: 40px; */
+    display: flex;
+    justify-content: center;
+}
+.buttonDiv2{
+    /* padding-top: 40px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.button{
+    background-color: #265BA8;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 68px;
+    width: 90px;
+    border: none;
+    border-radius: 20px 0px 20px 0px;
+    cursor: pointer;
+}
+.button2{
+    background-color: #265BA8;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 68px;
+    width: 143px;
+    border: none;
+    border-radius: 20px 0px 20px 0px;
+    cursor: pointer;
+}
+.button:active{
+    opacity: 0.5;
+}
+.quantity{
+    background-color: white;
+    height: 68px;
+    width: 143px;
+    color: #2E8BFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0px 20px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.remain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #265BA8;
+    width: 280px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
